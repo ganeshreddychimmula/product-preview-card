@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   letter-spacing: 0;
+  font-weight: 400;
 }
 
 :root {
@@ -19,8 +20,10 @@
   --font-montserrat: "Montserrat", sans-serif;
   --preset-1-size: 32px;
   --preset-1-line-height: 100%;
+  --preset-1-font-weight: 700;
   --preset-2-size: 14px;
   --preset-2-line-height: 110%;
+  --preset-2-font-weight: 700;
   --preset-3-size: 14px;
   --preset-3-line-height: 160%;
   --preset-4-size: 12px;
@@ -88,4 +91,18 @@ body {
   color: var(--grey);
 }
 
+.item-name {
+font-family: var(--font-fraunces);
+font-size: var(--preset-1-size);
+font-weight: var(--preset-1-font-weight);
+line-height: var(--preset-1-line-height);
+color: var(--black);
+}
+
+.item-desc{
+    font-family: var(--font-montserrat);
+    font-size: var(--preset-3-size);
+    line-height: var(--preset-3-line-height);
+    color: var(--grey);
+}
 
