@@ -92,17 +92,38 @@ body {
 }
 
 .item-name {
-font-family: var(--font-fraunces);
-font-size: var(--preset-1-size);
-font-weight: var(--preset-1-font-weight);
-line-height: var(--preset-1-line-height);
-color: var(--black);
+  font-family: var(--font-fraunces);
+  font-size: var(--preset-1-size);
+  font-weight: var(--preset-1-font-weight);
+  line-height: var(--preset-1-line-height);
+  color: var(--black);
 }
 
-.item-desc{
+.item-desc {
+  font-family: var(--font-montserrat);
+  font-size: var(--preset-3-size);
+  line-height: var(--preset-3-line-height);
+  color: var(--grey);
+}
+
+.item-price-container{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.item-price-discounted {
+  font-family: var(--font-fraunces);
+  font-size: var(--preset-1-size);
+  font-weight: var(--preset-1-font-weight);
+  line-height: var(--preset-1-line-height);
+  color: var(--green);
+}
+
+.item-price-actual{
     font-family: var(--font-montserrat);
-    font-size: var(--preset-3-size);
-    line-height: var(--preset-3-line-height);
+    font-size: var(--preset-5-size);
+    line-height: var(--preset-5-line-height);
     color: var(--grey);
+    text-decoration: line-through;
 }
-
