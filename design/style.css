@@ -42,4 +42,25 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
+  background-color: var(--cream);
+}
+
+.item-card{
+    display: flex;
+    flex-direction: column;
+    width: clamp(100px,90vw, 350px);
+    height: min-content;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--white);
+}
+
+.item-pic{
+    width:100%;
+    height: min-content;
+}
+
+.item-pic img{
+    width: 100%;
+    height:auto;
 }
