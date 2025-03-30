@@ -25,6 +25,7 @@
   --preset-3-line-height: 160%;
   --preset-4-size: 12px;
   --preset-4-line-height: 120%;
+  --preset-4-letter-spacing: 5px;
   --preset-5-size: 13px;
   --preset-5-line-height: 120%;
 }
@@ -45,22 +46,46 @@ body {
   background-color: var(--cream);
 }
 
-.item-card{
-    display: flex;
-    flex-direction: column;
-    width: clamp(100px,90vw, 350px);
-    height: min-content;
-    border-radius: 8px;
-    overflow: hidden;
-    background-color: var(--white);
+.item-card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(100px, 90vw, 350px);
+  height: min-content;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--white);
 }
 
-.item-pic{
-    width:100%;
-    height: min-content;
+.item-pic {
+  width: 100%;
+  height: min-content;
 }
 
-.item-pic img{
-    width: 100%;
-    height:auto;
+.item-pic img {
+  width: 100%;
+  height: auto;
 }
+
+.item-cart-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px;
+}
+
+.cart-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.item-type {
+  font-family: var(--font-montserrat);
+  font-size: var(--preset-4-size);
+  line-height: var(--preset-4-line-height);
+  letter-spacing: var(--preset-4-letter-spacing);
+  color: var(--grey);
+}
+
+
