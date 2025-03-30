@@ -52,7 +52,7 @@ body {
 .item-card {
   display: flex;
   flex-direction: column;
-  width: clamp(100px, 90vw, 350px);
+  width: clamp(200px, 90vw, 350px);
   height: min-content;
   border-radius: 8px;
   overflow: hidden;
