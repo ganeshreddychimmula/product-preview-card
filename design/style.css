@@ -1,0 +1,31 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0;
+}
+
+:root {
+  --white: rgb(255, 255, 255);
+  --black: rgb(28, 35, 43);
+  --cream: rgb(242, 234, 226);
+  --green: rgb(61, 129, 104);
+  --dark-green: rgb(26, 64, 50);
+  --grey: rgb(108, 114, 137);
+
+  --font-fraunces: "Fraunces", serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --preset-1-size: 32px;
+  --preset-1-line-height: 100%;
+  --preset-2-size: 14px;
+  --preset-2-line-height: 110%;
+  --preset-3-size: 14px;
+  --preset-3-line-height: 160%;
+  --preset-4-size: 12px;
+  --preset-4-line-height: 120%;
+  --preset-5-size: 13px;
+  --preset-5-line-height: 120%;
+}
+
